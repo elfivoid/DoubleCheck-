@@ -1,0 +1,111 @@
+[
+{
+    "id": "ST-2026-035",
+    "name": "Mirko Jarrer",
+    "email": "m.jarrer@signumtec.de",
+    "department": "Finanzen",
+    "position": "Buchhalter",
+    "phone": "+49 721 5246-150",
+    "office": "Karlsruhe",
+    "supervisor": "Markus Werner",
+    "hireDate": "07.02.2023",
+    "accessRights": ["Finanzsystem", "SAP", "Reisekosten"],
+    "securityCode": "Mond745521x",
+    "status": "Aktiv",
+    "calendar": {
+        "today": "Urlaub - Tegernsee (bis Fr.)",
+        "lastWeek": "vor Ort (regulär)",
+        "nextWeek": "Mo: Rückkehr, Di: Quartalsmeeting"
+    },
+    "portrait": "mirko_jarrer.png"
+},
+{
+    "id": "ST-2026-001",
+    "name": "Herman Werner",
+    "email": "h.wermer@signumtec.de",
+    "department": "Geschäftsführung",
+    "position": "CEO",
+    "phone": "+49 721 5246-100",
+    "office": "Karlsruhe",
+    "supervisor": null,
+    "hireDate": "20.03.2020",
+    "accessRights": ["Alle Systeme", "Finanzsystem", "SAP", "Admin-Panel"],
+    "securityCode": "Xamp12casdfSSS",
+    "status": "Aktiv",
+    "calendar": {
+        "today": "Kundenmesse Frankfurt (Do-Fr)",
+        "lastWeek": "vor Ort (Karlsruhe)",
+        "nextWeek": "Mo: Rückkehr, Do: Kundenpräsentation"
+    },
+    "portrait": "herman_werner.png"
+},
+  {
+    "id": "ST-2026-007",
+    "name": "Marcel Stempler",
+    "email": "m.stempler@signumtec.de",
+    "department": "IT",
+    "position": "Head of IT",
+    "phone": "+49 721 5246-300",
+    "office": "Karlsruhe",
+    "supervisor": "Markus Werner",
+    "hireDate": "12.06.2016",
+    "accessRights": [
+      "Alle IT-Systeme",
+      "Admin-Panel",
+      "Netzwerk",
+      "Firewall"
+    ],
+    "status": "Aktiv",
+    "calendar": {
+      "today": "09:00 Daily, 15:00 Security Review",
+      "lastWeek": "Vor Ort (regulär)",
+      "nextWeek": "Di: Vendor Meeting, Do: Schulung"
+    },
+    "portrait": "marcel_stempler.png"
+  },
+    {
+    "id": "ST-2026-068",
+    "name": "Jonathan stasovich",
+    "email": "j.stasovich@signumtec.de",
+    "department": "Entwicklung",
+    "position": "Praktikant",
+    "phone": "+49 721 5246-340",
+    "office": "Karlsruhe",
+    "supervisor": "Marcel Stempler",
+    "hireDate": "15.04.2026",
+    "accessRights": [
+      "Entwicklungsumgebung",
+      "Git-Repository Kanban Projekt"
+    ],
+    "status": "Aktiv",
+    "calendar": {
+      "today": "Vor Ort (regulär)",
+      "lastWeek": "Vor Ort (regulär)",
+      "nextWeek": "Vor Ort (regulär)"
+    },
+    "portrait": "jonathan_stasovich.png"
+  },
+    {
+    "id": "ST-2026-012",
+    "name": "Michele Jasek",
+    "email": "m.jasek@signumtec.de",
+    "department": "Vertrieb",
+    "position": "Vertriebsleiterin",
+    "phone": "+49 721 5246-210",
+    "office": "Karlsruhe",
+    "supervisor": "Markus Werner",
+    "hireDate": "15.09.2019",
+    "accessRights": [
+      "CRM",
+      "Projektordner Vertrieb",
+      "SAP"
+    ],
+    "status": "Aktiv",
+    "calendar": {
+      "today": "Vor Ort, Büro Karlsruhe",
+      "lastWeek": "Kundenmesse Frankfurt (Do-Fr)",
+      "nextWeek": "Mo: Teammeeting, Mi: Kundenpräsentation"
+    },
+    "portrait": "michele_jasek.png"
+  }
+]
