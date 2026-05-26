@@ -24,13 +24,6 @@ class GameScene extends Phaser.Scene {
 // Hintergrund auf die Größe des Bildschirms anpassen
         const {width, height} = this.scale;
         this.add.image(width/2, height/2, 'zones').setDisplaySize(width, height);
-//Platzhalter
-        // Schreibtisch
-        let officedesk = this.add.rectangle(width / 2, height, width, height * 0.4, 0x808080);
-        
-        //Bildschirm
-        this.monitor = this.add.rectangle(width / 2, height / 2 - 50, 800, 500, 0xffffff);
-        this.monitor.setStrokeStyle(10, 0x333333);
 
         
         
