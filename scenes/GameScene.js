@@ -28,7 +28,7 @@ class GameScene extends Phaser.Scene {
         
         
         // Tickets erstellen
-   for (let i = 0; i < 4; i++)
+  /*  for (let i = 0; i < 4; i++)
         {
             const ticket = this.add.rectangle(width / 4, height / 4 - 50, 800, 500, 0xfff234ff);
             ticket.setStrokeStyle(10, 0x333333);
@@ -61,7 +61,7 @@ class GameScene extends Phaser.Scene {
         ticketSpawner.on('pointerdown', () =>{
             this.showTicket(this.ticketIndex);
             this.ticketIndex++;
-        });
+        }); */
     }
 
      update ()
