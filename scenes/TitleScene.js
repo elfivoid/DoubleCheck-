@@ -29,7 +29,7 @@ class TitleScene extends Phaser.Scene {
             this.input.keyboard.off('keydown'); // verhindert dass weitere Tasten gedrückt werden können
             this.cameras.main.fadeOut(500, 0 , 0, 0); //Fade Out nach Schwarz in 500ms
             this.cameras.main.once('camerafadeoutcomplete', () => {
-                this.scene.start('MenuScene');
+                this.scene.start('GameScene');
             });
         });
     }
