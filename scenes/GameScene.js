@@ -10,7 +10,7 @@ class GameScene extends Phaser.Scene {
     }
      preload ()
     {   //Bilder und Assets laden
-        this.load.image('zones', 'assets/images/zones.png');
+        this.load.image('zones', 'assets/images/spielszene.png');
         //Ticket Daten laden
         this.load.json('ticketData', 'data/tickets.json'); 
         this.load.json('employees', 'data/employees.json');
