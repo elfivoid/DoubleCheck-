@@ -14,7 +14,7 @@ class GameScene extends Phaser.Scene {
         //Ticket Daten laden
         this.load.json('ticketData', 'data/tickets.json'); 
         this.load.json('employees', 'data/employees.json');
-        this.load.json('levels', 'levels.json');
+        this.load.json('levels', 'data/levels.json');
     }
 
      create ()
