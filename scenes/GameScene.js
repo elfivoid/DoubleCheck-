@@ -25,7 +25,47 @@ class GameScene extends Phaser.Scene {
         const {width, height} = this.scale;
         this.add.image(width/2, height/2, 'zones').setDisplaySize(width, height);
 
-        
+/* Email Posteingang Element erstellen */
+  this.emails = [];
+  this.emailCount = 0;
+
+  // Button als interaktives Phaser-Objekt
+  const btnBg = this.add.rectangle(400, 50, 200, 44, 0x4a90d9)
+    .setInteractive({ useHandCursor: true });
+
+  const btnText = this.add.text(400, 50, 'E-Mail hinzufügen ', {
+    fontSize: '16px', color: '#ffffff'
+  }).setOrigin(0.5);
+
+  // Hover-Effekt
+  btnBg.on('pointerover', () => btnBg.setFillStyle(0x357abd));
+  btnBg.on('pointerout',  () => btnBg.setFillStyle(0x4a90d9));
+
+  btnBg.on('pointerdown', () => this.addEmail());
+}
+
+addEmail() {
+  const yStart = 120;
+  const y = yStart + this.emails.length * 110;
+
+  const container = this.add.container(this.scale.width / 2, y);
+
+  const bg = this.add.rectangle(0, 0, 500, 90, 0xffffff)
+    .setStrokeStyle(1, 0xdddddd);
+
+  const sender = this.add.text(-230, -22, `phishing@bank${this.emailCount}.de`, {
+    fontSize: '13px', color: '#9a3ce7'  // rot für verdächtige Absender
+  });
+
+  const subject = this.add.text(-230, 8, `Anfrage #${this.emailCount} für einen Bürostuhl!`, {
+    fontSize: '15px', color: '#222', fontStyle: 'bold'
+  });
+
+  container.add([bg, sender, subject]);
+  this.emails.push(container);
+  this.emailCount++;
+}
+
         
         // Tickets erstellen
   /*  for (let i = 0; i < 4; i++)
@@ -62,7 +102,7 @@ class GameScene extends Phaser.Scene {
             this.showTicket(this.ticketIndex);
             this.ticketIndex++;
         }); */
-    }
+    
 
      update ()
     {}
